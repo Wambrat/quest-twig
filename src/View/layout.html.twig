@@ -26,16 +26,7 @@
 <body>
 
     {% block content %}{% endblock %}
-    <footer>
-
-        <p>
-
-            Pour nous contacter : <a href="mailto:{{email}}">{{email}}</a>
-
-        </p>
-
-    </footer>
-
+    {% include '_footer.html.twig'%}
 </body>
 
 </html>
